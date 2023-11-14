@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'merriweather';
+    src: url('../fonts/Merriweather-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+                /* !Global */
+
+*{
+    font-family: 'merriweather';
+    /* font-size: 80%; */
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+main p {
+    font-size: 0.8rem;
+}
+
+img {
+    width: 20em;
+    height: 20em;
+}
+
+li {
+    font-size: 0.6rem;
+}
+
+                /* !Header */
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+header nav a {
+    font-family: 'lato';
+    font-size: 1.3rem;
+}
+
+                /* ! Main erste Section*/
+
+.SectionOne {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5em;
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+.SectionOne article {
+    display: flex;
+    justify-content: space-between;
+    gap: 40em;
+}
+
+.SectionOne article div {
+    height: 15em;
+    width: 20em;
+}
+
+.SectionOne article div a {
+    font-size: 1em;
+    padding: 0.6em;
+    border-radius: 5px;
+}
+
+.SectionOne article div a:first-of-type {
+    background-color: #202020;
+    color: white;
+
+}
+
+.SectionOne article div a:nth-of-type(2) {
+    border: 0.5px solid #202020;
+    color: black;
+}
+
+                /* ! Main zweite Section */
+
+.SectionTwo {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.SectionTwo article {
+    display: flex;
+    justify-content: space-between;
+    gap: 20em;
+    margin-right: 20em;
+}
+
+.SectionTwo article div {
+    height: 15em;
+    width: 20em;
+}
+
+                /* ! Main dritte Section */
+
+.SectionThree {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.SectionThree article {
+    display: flex;
+    justify-content: space-between;
+    gap: 25em;
+    margin-right: 15em;
+}
+
+.SectionThree article div {
+    height: 15em;
+    width: 20em;
+}
+
+                /* ! Main vierte Section */
+
+.SectionFour {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.SectionFour article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SectionFour div:first-of-type {
+    text-align: center;
+    height: 10em;
+    width: 35em;
+}
+
+.SectionFour div:nth-of-type(2) {
+    display: flex;
+    gap: 7em;
+}
+
+.SectionFour div:nth-of-type(2) img:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+                /* ! Main fünfte Section */
+
+.SectionFive {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10em;
+}
+
+.SectionFive article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.SectionFive div:first-of-type {
+    text-align: center;
+    flex-wrap: wrap;
+    height: 10em;
+    width: 35em;
+}
+
+.SectionFive div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 30em;
+    width: 50em;
+    gap: 1em;
+}
+
+.SectionFive div:nth-of-type(2) img {
+    width: 20em;
+    height: 12em;
+}
+
+.SectionFive div:nth-of-type(2) img:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+                /* ! Main sechste Section */
+
+
+.SectionSix {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.SectionSix h2 {
+    text-align: center;
+    width: 30em;
+}
+
+.free {
+    text-align: center;
+    width: 20em;
+}
+
+/* Design Membershipcard */
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #55ACEE1A;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: 0 3em;
+}
+
+.price-tag {
+    font-size:3em;
+}
+
+.SectionSix h3 {
+    font-size: 1.5em;
+}
+
+.per-year {
+    color: rgb(169, 164, 164);
+}
+
+.SectionSix ul{
+    text-align: center;
+    margin-right: 2em;
+}
+
+button {
+    background-color: #55ACEE;
+    border-radius: 10px;
+    padding: 1em;
+    margin:0 0 2em 0;
+} 
+
+button a {
+    color: white;
+}
+
+                /* ! Footer */
+
+footer {
+    text-align: center;
+}       
+
+footer p {
+    color: lightgrey;
+}
+
+footer a:nth-of-type(2) {
+    color: #FCAF45;
+}
+
+footer a:nth-of-type(3) {
+    color: #55ACEE;
+}
+footer a:nth-of-type(4) {
+    color: #C4302B;
+}
